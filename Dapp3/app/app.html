@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="web3.min.js"></script>
+
+<link rel="stylesheet" href="app.css" />
+
+</head>
+
+<body>
+  
+<button class="enableEthereumButton">以太坊连接</button>
+<h2>账号: <span class="showAccount"></span></h2>
+
+
+
+<br>
+tokenURl:<input id="tokenURl" value="" />
+<br>
+_name:<input id="name" value="" />
+<br>
+_id:<input id="id" value="" />
+<br>
+_game：<input id="game" value="" />
+<br>
+_price：<input id="price" value="" />
+<br>
+_pass：<input id="pass" value="" />
+<button onclick="addaccount()">添加账户</button>
+<span class="addaccount"></span>
+<br>
+tokenId:<input id="tokenId" value="" />
+<button onclick= "getaccount()">查询账户</button>
+<span class="getAccountText"></span>
+<!-- <div id="box2"></div> -->
+
+
+<br>
+我的Item数量<span id="MyBalance"></span>
+<br>
+<div id="box"></div>
+我的代币: <span class="txt_getTotalSupply"></span><button id="Btn_getTotalSupply">查询我的代币</button>
+<br>
+代币主人: <input id="from" value="" />
+代币ID: <input id="TOKENID" value="" />  </span>
+ <button id="buy">购买</button>
+ <br>
+
+ <br>
+ 合约主人: <span class="ContractOwner"></span>
+ <br>
+ 合约余额: <span class="ContractBalance"></span><button id="onwerbalance">得到余额</button>
+ <br>
+取出金额: <input id="amount" value="" />  </span> <button id="withdrawAmount">提取</button>
+<br>
+<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
